@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Positioning/Tables/Forms</title>
+        
+    </head>
+    <body>
+        <header><h1>Advertising Info</h1>
+                <h2>Some Quote!</h2>            
+        </header>
+        <nav>
+            <ul type="none">
+                <li><a href="#">About</a></li>
+                <li><a href="#">CV</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">External Links</a></li>
+            </ul>
+        </nav>
+        <article>Defines a part of an HTML document that consists of a self-contained composition
+        independent from the rest of the content in the document.</article><hr>
+                <table border="1">
+                    <caption>Training Table</caption>
+                    <tr>
+                        <th rowspan="2">Summary</th>
+                        <th>Quarter 1</th>
+                        <th>Quarter 1</th>
+                    </tr>
+                    <tr>
+                        <th>Results</th>
+                        <th>Results</th>
+                    </tr>
+                    <tr>
+                        <td>January</td>
+                        <td>10</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>30</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td colspan="2">100</td>
+                    </tr>
+                </table><hr>
+                <form id="contact" method="post">
+                    <fieldset>
+                        <lable for="name">Name</lable>
+                        <input type="text" placeholder="Type your Name" name="Name" autofocus="autofocus"><br><br>
+                        <lable for="email" required>E-mail</lable>
+                        <input type="email" name="email" placeholder="E-mail" required><br><br>
+                        <lable for="text">Your Text</lable>
+                        <input type="text" name="text" placeholder="Questions or comments"/>
+                        <lable for="submit_form"></lable>
+                        <input type="submit" value="Send">
+                    </fieldset>   
+                </form>
+                <h3>Tasks Done</h3>
+                <ul>
+                    <li>Semantic Positioning</li>
+                    <li>Table and basic Lists</li>
+                    <li>Creating contact form</li>
+                    </ul>
+                <footer>
+                    <p>Homework by Tuesday. SoftServe 2016.</p>
+                </footer>
+    </body>
+</html>
